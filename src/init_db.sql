@@ -1,6 +1,3 @@
-
--- drop table worker;
-
 CREATE TABLE worker
 (
     id IDENTITY PRIMARY KEY,
@@ -33,6 +30,3 @@ CREATE TABLE project_worker
     FOREIGN KEY(worker_id) REFERENCES worker(id)
 );
 
--- task start
-
--- task finish 
